@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+    font-family: 'Segoe';
+    src: url('../assests/fonts/segoe/SegoeUI.woff') format('woff');
+} */
+  
+/* body {
+  font-family: fantasy;
+   
+} */
+

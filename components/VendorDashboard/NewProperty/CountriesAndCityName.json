@@ -1,0 +1,246 @@
+[
+    {
+        "country": "Argentina",
+        "cities": ["Buenos Aires", "Cordoba", "Rosario", "Mendoza", "Tucuman", "La Plata"],
+        "currency": "ARS"
+    },
+    {
+        "country": "Australia",
+        "cities": ["Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide", "Gold Coast"],
+        "currency": "AUD"
+    },
+    {
+        "country": "Bangladesh",
+        "cities": ["Dhaka", "Chittagong", "Khulna", "Rajshahi", "Sylhet", "Barisal"],
+        "currency": "BDT"
+    },
+    {
+        "country": "Brazil",
+        "cities": ["Sao Paulo", "Rio de Janeiro", "Brasilia", "Salvador", "Fortaleza", "Belo Horizonte"],
+        "currency": "BRL"
+    },
+    {
+        "country": "Canada",
+        "cities": ["Toronto", "Vancouver", "Montreal", "Calgary", "Ottawa", "Edmonton"],
+        "currency": "CAD"
+    },
+    {
+        "country": "China",
+        "cities": ["Beijing", "Shanghai", "Guangzhou", "Shenzhen", "Chengdu", "Hangzhou"],
+        "currency": "CNY"
+    },
+    {
+        "country": "Egypt",
+        "cities": ["Cairo", "Alexandria", "Giza", "Luxor", "Aswan", "Sharm El Sheikh"],
+        "currency": "EGP"
+    },
+    {
+        "country": "France",
+        "cities": ["Paris", "Marseille", "Lyon", "Toulouse", "Nice", "Nantes"],
+        "currency": "EUR"
+    },
+    {
+        "country": "Germany",
+        "cities": ["Berlin", "Munich", "Hamburg", "Cologne", "Frankfurt", "Stuttgart"],
+        "currency": "EUR"
+    },
+    {
+      "country": "India",
+      "cities": [
+        "Delhi", "Mumbai", "Kolkata", "Chennai", "Srinagar", "Manali", "Bengaluru", "Hyderabad", "Pune", "Jaipur",
+        "Lucknow", "Ahmedabad", "Surat", "Kanpur", "Nagpur", "Indore", "Thane", "Bhopal", "Bangalore", "Jaipur", "Goa",
+        "Shimla", "Agra", "Manali", "Darjeeling", "Kolkata", "Amritsar", "Ooty", "Pondicherry", "Kasol", "Udaipur",
+        "Nanital", "Rishikesh", "Lonavala", "Varanasi", "Hyderabad", "Jaisalmer", "Dehradun", "Cochin", "Coorg", "Leh",
+        "Madurai", "Jodhpur", "Dalhousie", "Gangtok", "Hampi", "Mussoorie", "Chandigarh", "Lucknow", "Mysore", "Ahmedabad",
+        "Aurangabad", "Almora", "Gokarna", "Haridwar", "Kanyakumari", "Bodhgaya", "Munnar", "Varkala", "Khajuraho",
+        "Pushkar", "Wayanad", "Srinagar"
+      ],
+      "currency": "INR"
+    },
+    {
+        "country": "Indonesia",
+        "cities": ["Jakarta", "Surabaya", "Bandung", "Medan", "Semarang", "Makassar"],
+        "currency": "IDR"
+    },
+    {
+        "country": "Iran",
+        "cities": ["Tehran", "Mashhad", "Isfahan", "Karaj", "Tabriz", "Shiraz"],
+        "currency": "IRR"
+    },
+    {
+        "country": "Iraq",
+        "cities": ["Baghdad", "Basra", "Mosul", "Erbil", "Kirkuk", "Najaf"],
+        "currency": "IQD"
+    },
+    {
+        "country": "Italy",
+        "cities": ["Rome", "Milan", "Naples", "Turin", "Florence", "Venice"],
+        "currency": "EUR"
+    },
+    {
+        "country": "Japan",
+        "cities": ["Tokyo", "Osaka", "Kyoto", "Hiroshima", "Sapporo", "Nagoya"],
+        "currency": "JPY"
+    },
+    {
+        "country": "Jordan",
+        "cities": ["Amman", "Zarqa", "Irbid", "Aqaba", "Salt", "Madaba"],
+        "currency": "JOD"
+    },
+    {
+        "country": "Kenya",
+        "cities": ["Nairobi", "Mombasa", "Kisumu", "Nakuru", "Eldoret", "Thika"],
+        "currency": "KES"
+    },
+    {
+        "country": "Malaysia",
+        "cities": ["Kuala Lumpur", "Penang", "Johor Bahru", "Ipoh", "Kuching", "Kota Kinabalu"],
+        "currency": "MYR"
+    },
+    {
+        "country": "Mexico",
+        "cities": ["Mexico City", "Guadalajara", "Monterrey", "Puebla", "Tijuana", "Merida"],
+        "currency": "MXN"
+    },
+    {
+        "country": "Morocco",
+        "cities": ["Casablanca", "Rabat", "Fez", "Marrakech", "Agadir", "Tangier"],
+        "currency": "MAD"
+    },
+    {
+        "country": "Netherlands",
+        "cities": ["Amsterdam", "Rotterdam", "The Hague", "Utrecht", "Eindhoven", "Tilburg"],
+        "currency": "EUR"
+    },
+    {
+        "country": "Nigeria",
+        "cities": ["Lagos", "Abuja", "Kano", "Ibadan", "Benin City", "Port Harcourt"],
+        "currency": "NGN"
+    },
+    {
+        "country": "Pakistan",
+        "cities": ["Karachi", "Lahore", "Islamabad", "Rawalpindi", "Faisalabad", "Multan"],
+        "currency": "PKR"
+    },
+    {
+        "country": "Palestine",
+        "cities": ["Jerusalem", "Gaza City", "Ramallah", "Khan Yunis", "Rafah"],
+        "currency": "ILS"
+    },
+    {
+        "country": "Peru",
+        "cities": ["Lima", "Arequipa", "Trujillo", "Chiclayo", "Iquitos", "Cusco"],
+        "currency": "PEN"
+    },
+    {
+        "country": "Philippines",
+        "cities": ["Manila", "Quezon City", "Davao City", "Cebu City", "Zamboanga City", "Taguig City"],
+        "currency": "PHP"
+    },
+    {
+        "country": "Poland",
+        "cities": ["Warsaw", "Krakow", "Wroclaw", "Poznan", "Gdansk", "Szczecin"],
+        "currency": "PLN"
+    },
+    {
+        "country": "Qatar",
+        "cities": ["Doha", "Al Rayyan", "Umm Salal", "Al Khor", "Al Wakrah", "Mesaieed"],
+        "currency": "QAR"
+    },
+    {
+        "country": "Romania",
+        "cities": ["Bucharest", "Cluj-Napoca", "Timisoara", "Iasi", "Craiova", "Constanta"],
+        "currency": "RON"
+    },
+    {
+        "country": "Russia",
+        "cities": ["Moscow", "Saint Petersburg", "Novosibirsk", "Yekaterinburg", "Nizhny Novgorod", "Kazan"],
+        "currency": "RUB"
+    },
+    {
+        "country": "Saudi Arabia",
+        "cities": ["Riyadh", "Jeddah", "Mecca", "Medina", "Dammam", "Khobar"],
+        "currency": "SAR"
+    },
+    {
+        "country": "South Africa",
+        "cities": ["Johannesburg", "Cape Town", "Durban", "Pretoria", "Port Elizabeth", "Bloemfontein"],
+        "currency": "ZAR"
+    },
+    {
+        "country": "South Korea",
+        "cities": ["Seoul", "Busan", "Incheon", "Daegu", "Daejeon", "Gwangju"],
+        "currency": "KRW"
+    },
+    {
+        "country": "Spain",
+        "cities": ["Madrid", "Barcelona", "Valencia", "Seville", "Zaragoza", "Malaga"],
+        "currency": "EUR"
+    },
+    {
+        "country": "Sri Lanka",
+        "cities": ["Colombo", "Kandy", "Galle", "Jaffna", "Negombo", "Trincomalee"],
+        "currency": "LKR"
+    },
+    {
+        "country": "Sudan",
+        "cities": ["Khartoum", "Omdurman", "Port Sudan", "Kassala", "El Obeid", "Nyala"],
+        "currency": "SDG"
+    },
+    {
+        "country": "Sweden",
+        "cities": ["Stockholm", "Gothenburg", "Malmo", "Uppsala", "Vasteras", "Orebro"],
+        "currency": "SEK"
+    },
+    {
+        "country": "Switzerland",
+        "cities": ["Zurich", "Geneva", "Basel", "Bern", "Lausanne", "Lucerne"],
+        "currency": "CHF"
+    },
+    {
+        "country": "Thailand",
+        "cities": ["Bangkok", "Chiang Mai", "Phuket", "Pattaya", "Krabi", "Hua Hin"],
+        "currency": "THB"
+    },
+    {
+        "country": "Turkey",
+        "cities": ["Istanbul", "Ankara", "Izmir", "Bursa", "Antalya", "Adana"],
+        "currency": "TRY"
+    },
+    {
+        "country": "UAE",
+        "cities": ["Dubai", "Abu Dhabi", "Sharjah", "Ras Al Khaimah", "Fujairah", "Ajman"],
+        "currency": "AED"
+    },
+    {
+        "country": "UK",
+        "cities": ["London", "Manchester", "Birmingham", "Edinburgh", "Glasgow", "Liverpool"],
+        "currency": "GBP"
+    },
+    {
+        "country": "USA",
+        "cities": ["New York", "Los Angeles", "Chicago", "San Francisco", "Miami", "Las Vegas"],
+        "currency": "USD"
+    },
+    {
+        "country": "Vietnam",
+        "cities": ["Hanoi", "Ho Chi Minh City", "Da Nang", "Hue", "Nha Trang", "Can Tho"],
+        "currency": "VND"
+    },
+    {
+        "country": "Yemen",
+        "cities": ["Sana'a", "Aden", "Taiz", "Hodeidah", "Ibb", "Dhamar"],
+        "currency": "YER"
+    },
+    {
+        "country": "Zambia",
+        "cities": ["Lusaka", "Ndola", "Kitwe", "Kabwe", "Chingola", "Mufulira"],
+        "currency": "ZMW"
+    },
+    {
+        "country": "Zimbabwe",
+        "cities": ["Harare", "Bulawayo", "Chitungwiza", "Mutare", "Gweru", "Kwekwe"],
+        "currency": "ZWL"
+    }
+  ]
+  
