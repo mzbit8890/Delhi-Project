@@ -12,3 +12,11 @@
    
 } */
 
+.kp{
+
+  backdrop-filter: blur(5px); /* Adjust the blur radius as needed */}
+ 
+.brightness-40 {
+    --tw-brightness: brightness(.4);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}

@@ -1,13 +1,13 @@
 import React from 'react'
 import Image from "next/image"
-import first from "@/components/HomeSection/Destination/pl.png"
-import green from "@/components/HomeSection/Destination/green.png"
-import sun from "@/components/HomeSection/Destination/sun.png"
-import build from "@/components/HomeSection/Destination/build.png"
-import castle from "@/components/HomeSection/Destination/castle.png"
-import delhi from "@/components/HomeSection/Destination/delhi.png"
-import kumaon from "@/components/HomeSection/Destination/kumaun.png"
-import amrit from "@/components/HomeSection/Destination/amrit.png"
+import first from "@/components/HomeSection/Destination/pl2.png"
+import green from "@/components/HomeSection/Destination/green3.png"
+import sun from "@/components/HomeSection/Destination/ooo.png"
+import build from "@/components/HomeSection/Destination/build2.png"
+import castle from "@/components/HomeSection/Destination/castle2.png"
+import delhi from "@/components/HomeSection/Destination/delhi2.png"
+import kumaon from "@/components/HomeSection/Destination/kumau.png"
+import amrit from "@/components/HomeSection/Destination/amrit2.png"
 
 import ja from "@/components/HomeSection/Destination/ja.png"
 import del from "@/components/HomeSection/Destination/del.png"
@@ -134,12 +134,12 @@ const Destination = () => {
     return (
         <>
             <Box>
-                <div className='mx-1'>
+                <div className='mx-1 mt-5'>
 
 
 
                     <div className='flex items-center justify-between'>
-                        <h2 className='text-[25px] sm:text-[50px] font-bold text-[#141414]/90'>Top Destinations</h2>
+                        <h2 className='text-[25px] smm:text-[50px] font-bold text-[#141414]/90'>Top Destinations</h2>
                         <Link href="/AllDestinations">
                             <div className=' gap-2 hidden md:flex '>
                                 <p className='text-[23px] font-bold text-[#F65656] hover:text-[#f17b7b]'>All Destinations</p>
@@ -151,7 +151,7 @@ const Destination = () => {
                             </div>
                         </Link>
                     </div>
-                    <div className='lg:flex hidden justify-center gap-10 '>
+                    <div className='destiny:flex hidden justify-center gap-10 '>
                         {
                             firstRow.map((item) => {
                                 return (
@@ -189,14 +189,14 @@ const Destination = () => {
 
 
                     </div>
-                    <div className='lg:flex hidden justify-center gap-10 mb-36'>
+                    <div className='destiny:flex hidden justify-center gap-10 mb-36'>
                         {
                             SecondRow.map((item) => {
                                 return (
                                     <>
                                         <div className=' h-[380px] rounded-[15px] w-full mt-12 relative hover:scale-110 duration-300'>
                                             <Image src={item.img} alt={item.altText} className='object-cover rounded-[20px] h-[390px]' />
-                                            <div className="absolute inset-0 bg-black/10 rounded-[15px] px-8 pt-32">
+                                            <div className="absolute inset-0  rounded-[15px] px-8 pt-32">
                                                 <p className="text-white text-[30px] font-bold">{item.text}</p>
                                                 <div className='flex justify-end h-[340px] items-center'>
                                                     <button
@@ -222,13 +222,13 @@ const Destination = () => {
                 </div>
 
             </Box> 
-            <div className='flex lg:hidden mt-8 px-3 relative'>
+            <div className='flex destiny:hidden mt-8  relative'>
                 <HorizontalScroll>
                     {SecondRow2.map((item) => (
 
 
                         <>
-                            <Image src={item.img} alt={item.altText} className=' flex mr-8 rounded-[20px] h-[360px]' />
+                            <Image src={item.img} alt={item.altText} className=' flex mr-4 th:mr-8 object-cover rounded-[20px] h-[360px]' />
 
                             {/* <div className="absolute bottom-0 "><p className=" text-white text-[30px] font-bold">{item.text}</p>
                                 <button className=" text-[15px] font-bold text-center pb-2 rounded-[24px] border-4 text-white hover:bg-black/60">

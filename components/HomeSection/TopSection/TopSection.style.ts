@@ -22,13 +22,14 @@ export const BoxImage = styled(Box)(({ theme }) => ({
 export const CoverImage = styled(Image)(({ theme }) => ({
     width: '100%',
     height: '100%', 
-    filter: 'brightness(30%)',
+    filter: 'brightness(40%)',
     objectFit: 'cover',
     [theme.breakpoints.down("sm")]: {},
     [theme.breakpoints.up("sm")]: {},
     [theme.breakpoints.up("md")]: {},
     [theme.breakpoints.up("lg")]: {},
 }))
+
 
 export const HeadingTypography = styled(Typography)(({ theme }) => ({
     fontWeight: 700,
@@ -46,7 +47,9 @@ export const HeadingTypography = styled(Typography)(({ theme }) => ({
 
 export const SearchBoxWrapper = styled(Box)(({ theme }) => ({
     // backgroundColor: 'rgba(0, 0, 0, 0.4)',
-    backdropFilter: 'blur(4px)',
+    
+    backgroundColor: 'rgba(255, 255, 255, 0.5)', // Semi-transparent white background
+    backdropFilter: 'blur(10px)', 
     color: 'white',
     border: '1px solid #FFFFFF80',
     borderRadius: '10px',

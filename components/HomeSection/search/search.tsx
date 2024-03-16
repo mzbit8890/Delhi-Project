@@ -149,7 +149,7 @@ function HostelFinderSearchBox() {
   // const calculatedHeight = Math.min(locations.length * 2.5, 100);
 
   return (
-    <Box>
+    <div className="bg-[#000000]/15 kp " >
       <Box sx={{ width: "100%" }}>
         <Paper
           elevation={5}
@@ -398,7 +398,7 @@ function HostelFinderSearchBox() {
                   <Typography
                     className={`${poppins.variable}`}
                     sx={{
-                      marginLeft: "1rem",
+                      marginRight: "2rem",
                       fontFamily: "var(--font-poppins)",
                       fontSize: "1rem",
                       color: "#FFFFFF8C",
@@ -549,7 +549,7 @@ function HostelFinderSearchBox() {
                   <Typography
                     className={`${poppins.variable}`}
                     sx={{
-                      // marginLeft: "1rem",
+                      marginRight: "2rem",
                       fontFamily: "var(--font-poppins)",
                       fontSize: "1rem",
                       color: "#FFFFFF8C",
@@ -559,6 +559,7 @@ function HostelFinderSearchBox() {
                   </Typography>
                   <TextField
                     fullWidth
+                    
                     id="checkin"
                     required
                     name="checkin"
@@ -573,6 +574,7 @@ function HostelFinderSearchBox() {
                       disableUnderline: true,
                       style: {
                         // marginLeft: "1rem",
+                        marginLeft: "0.5rem",
                         color: "white",
                         fontSize: "0.8rem",
                         fontFamily: "var(--font-poppins)",
@@ -599,7 +601,7 @@ function HostelFinderSearchBox() {
               <Typography
                 className={`${poppins.variable}`}
                 sx={{
-                  marginLeft: "0rem",
+                  marginRight: "2rem",
                   fontFamily: "var(--font-poppins)",
                   fontSize: "1rem",
                   color: "#FFFFFF8C",
@@ -635,11 +637,12 @@ function HostelFinderSearchBox() {
               />
             </Grid>
 
-            <Grid item xs={12} sm={1.5}>
+            <Grid item xs={12} sm={1.5} >
               <Button
                 fullWidth
                 variant="contained"
                 size="large"
+                
                 sx={{
                   borderRadius: "10px",
                   backgroundColor: "#F65656",
@@ -660,7 +663,7 @@ function HostelFinderSearchBox() {
           </Grid>
         </Paper>
       </Box>
-    </Box>
+    </div>
   );
 }
 

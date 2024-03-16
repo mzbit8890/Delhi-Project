@@ -1,7 +1,8 @@
 import React from 'react';
-import Image from "next/image"
+
 import leftArow from "./arrowIcon.png"
 import right from "./leftarrow.png"
+import Image from "next/image"
 interface HorizontalScrollProps {
     children: React.ReactNode;
 }
