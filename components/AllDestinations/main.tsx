@@ -1,12 +1,12 @@
 import Navbar from "../Navbar/Navbar"
-import Locations from "./Locations/Locations"
 import Footer from "../Footer/Footer"
+import Locations2 from "./Locations.tsx/Locations2"
 
 
 const DestinationMainComponent = () => {
   return <>
     <Navbar />
-    <Locations />
+    <Locations2 />
     <Footer />
   </>
 }

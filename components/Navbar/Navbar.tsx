@@ -74,7 +74,7 @@ const Navbar = () => {
         >
          
           <List sx={{ display: "flex", flexDirection: "column" }}>
-          <Link href="/About">
+          <Link href="">
               <LinkButton>About</LinkButton>
             </Link>
             <Link href="/destinations">
@@ -139,8 +139,8 @@ const Navbar = () => {
               />
                 <Grid px={5} item>
                 <Link href="/destinations">
-                  <LinkButton
-                    sx={{ color: pathname === "/" ? "white" : "black" }}
+                  <LinkButton 
+                   sx={{ color: pathname === "/" ? "white" : "black" }}
                   >
                     <LanguageIcon sx={{ marginRight: "10px" }} />
                     Destination
@@ -160,7 +160,7 @@ const Navbar = () => {
                 <Link href="/vendor-login">
                   <LinkButton
                     sx={{
-                      color: pathname === "/vendor-login" ? "#000" : "#fff",
+                      color: pathname === "/" ? "white" : "black",
                     }}
                   >
                     Vendor Login
