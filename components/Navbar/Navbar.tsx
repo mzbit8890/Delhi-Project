@@ -2,7 +2,8 @@
 import { useState } from "react";
 import Image from "next/image";
 import { useRouter, usePathname } from "next/navigation";
-
+import icon2 from "./propblack.png"
+import icon from "./dblack.png"
 import { useTheme } from "@mui/material/styles";
 import {
   Avatar,
@@ -30,6 +31,8 @@ import BusinessOutlinedIcon from "@mui/icons-material/BusinessOutlined";
 
 import bird from "@/assests/bird.png";
 import Link from "next/link";
+import Destinat from "@../../../components/Navbar/destination.png"
+import IMGaa from "@../../../components/Navbar/dsnw.png"
 // import './Navbar.css'
 
 import { getCookie } from "cookies-next";
@@ -63,8 +66,12 @@ const Navbar = () => {
   const toggleDrawer = (newOpen: boolean) => () => {
     setOpen(newOpen);
   };
+  const router3 = useRouter();
 
+  // Check if it's the home page
+  // const isHomePage = router3.pathname === '/';
   return (
+   
     <>
       <Drawer open={open} onClose={toggleDrawer(false)}>
         <Box
@@ -116,18 +123,30 @@ const Navbar = () => {
             Hostel Bird
           </LogoTypography>
         </Link>
-        <Box mr={{ xs: 1, lg: 4 }}>
+        <Box mr={{ xs: 1, lg: 8 }}>
           {isLaptop ? (
             <LinksMainGrid container>
            
-                <Link href="/About">
+                {/* <Link href="/About">
                   <LinkButton
                     sx={{ color: pathname === "/" ? "white" : "black" }}
                   >
                     <LanguageIcon sx={{ marginRight: "5px" }} />
                  About
                   </LinkButton>
+                </Link> */}
+
+                <Grid px={5} item>
+                <Link href="/About">
+                  <LinkButton 
+                   sx={{ color: pathname === "/" ? "white" : "black" }}
+                  >
+                   
+                    About
+                  </LinkButton>
                 </Link>
+              </Grid>
+
 
                 <Divider
                 orientation="vertical"
@@ -142,7 +161,17 @@ const Navbar = () => {
                   <LinkButton 
                    sx={{ color: pathname === "/" ? "white" : "black" }}
                   >
-                    <LanguageIcon sx={{ marginRight: "10px" }} />
+                     {pathname === "/" ? (
+        <Image src={IMGaa} alt="" className="w-[30px] h-[30px] mr-[10px]" />
+      ) : (
+        <Image src={icon} alt="" className="w-[30px] h-[30px] mr-[10px]" />
+      )}
+                    {/* <Image
+        src={IMGaa}
+        alt=""
+        className={`w-[30px] h-[30px] mr-[10px] ${
+          isHomePage ? 'text-white' : 'text-black'
+        }`} /> */}
                     Destination
                   </LinkButton>
                 </Link>
@@ -156,7 +185,7 @@ const Navbar = () => {
                   borderColor: pathname === "/" ? "#FFFFFF80" : "#0000001A",
                 }}
               />
-              <Grid px={5} item>
+              {/* <Grid px={5} item>
                 <Link href="/vendor-login">
                   <LinkButton
                     sx={{
@@ -166,22 +195,27 @@ const Navbar = () => {
                     Vendor Login
                   </LinkButton>
                 </Link>
-              </Grid>
-              <Divider
+              </Grid> */}
+              {/* <Divider
                 orientation="vertical"
                 flexItem
                 sx={{
                   border: "1px solid",
                   borderColor: pathname === "/" ? "#FFFFFF80" : "#0000001A",
                 }}
-              />
+              /> */}
               <Grid px={5} item>
                 <Link href="/listyourproperty">
                   <LinkButton
                     sx={{ color: pathname === "/" ? "white" : "black" }}
                   >
-                    <BusinessOutlinedIcon sx={{ marginRight: "10px" }} /> List
-                    Your Property
+                    {pathname === "/" ? (
+       <Image src={Destinat} alt=""  className="mr-[10px] w-[30px] h-[30px]"/> 
+      ) : (
+        <Image src={icon2} alt=""  className="mr-[10px] w-[30px] h-[30px]"/> 
+      )}
+                    
+                    List Your Property
                   </LinkButton>
                 </Link>
               </Grid>

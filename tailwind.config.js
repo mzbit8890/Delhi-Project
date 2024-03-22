@@ -7,7 +7,18 @@ module.exports = {
     './src/**/*.{ts,tsx,js,jsx}',
   ],
   theme: {
-    extend: {
+    extend: { 
+      colors: {
+      customBlue: 'rgba(26, 156, 227, 0.11)', // RGBA values with 11% opacity
+      customRed: 'rgba(199, 67, 67, 0.11)', // RGBA values with 11% opacity
+    },
+      fontWeight: {
+        'custom-light': 300,
+        'custom-normal': 400,
+        'custom-semibold': 600,
+        'custom-bold': 700,
+        'custom-extrabold': 800,
+      },
       screens : {
         mn:"940px",
         yu:"739px",
@@ -117,6 +128,70 @@ module.exports = {
         ui2: "946px",
         ui3: "708px",
         xs: "422px",
+        vvw:"450px",
+        for:"417px",
+        bxq:"394px",
+        sqs:"375px",
+        swd:"354px",
+        sgvx:"330px",
+        swxw:"320px",
+        xaq:"300px",
+        ffy:"288px",
+        wdw:"278px",
+        ade:"273px",
+        bgq:"257px",
+        hjnno:"253px",
+        xuq:"248px",
+        rdyg:"224px",
+        hcbq:"217px",
+        bqwd:"365px",
+        vyv:"319px",
+        asw:"308px",
+        dew:"294px",
+        hbhe:"269px",
+        jed:"256px",
+        qwx:"236px",
+        hg:"209px",
+        swe:"450px",
+        swt:"310px",
+        iwd:"278px",
+        wef:"244px",
+        cecr:"203px",
+        gft:"163px",
+        die:"1200px",
+        jenf:"1050px",
+        kmk:"1663px",
+        kxmk:"1551px",
+        jb:"1333px",
+        wdx:"1280px",
+        hbg:"1141px",
+        dw:"1055px",
+        ede:"986px",
+        ddcr:"946px",
+        wqd:"853px",
+        // ewf:"805px",
+        // wwqd:"762px",
+        // de4:"703px",
+        cfutft:"364px",
+        xxs: "288px",
+        xxs2: "230px",
+        xxs3: "206px",
+        cal1: "406px",
+        cal2: "370px",
+        cal3: "332px",
+        cal4: "296px",
+        cal5: "266px",
+        cal6: "284px",
+        cal7: "256px",
+        cal8: "190px",
+        calen: "244px",
+        calen34: "332px",
+        calen35: "236px",
+        calen906: "440px",
+        calen926: "525px",
+        calen09: "562px",
+        
+      
        
         
       
@@ -125,6 +200,7 @@ module.exports = {
     },
   },
   plugins: [
+    
     
   ],
 }

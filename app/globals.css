@@ -2,15 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @font-face {
-    font-family: 'Segoe';
-    src: url('../assests/fonts/segoe/SegoeUI.woff') format('woff');
-} */
+
+
+.shadow-top {
+  box-shadow: 0 -4px 6px -1px rgba(103, 103, 103, 0.1);
+  }
   
-/* body {
+  .custom-calendar .react-datepicker__month-container {
+  width: 100%; /* Set the desired width for the calendar */
+  height: 100%; /* Set the desired height for the calendar */
+  }
+  
+  .custom-calendar .react-datepicker__month {
+  width: 100%; /* Ensure the month takes up the full width */
+  }
+  
+  
+  
+  
+  /* @font-face {
+  font-family: 'Segoe';
+  src: url('../assests/fonts/segoe/SegoeUI.woff') format('woff');
+  } */
+  
+  /* body {
   font-family: fantasy;
-   
-} */
+  
+  } */
 
 .kp{
 
@@ -20,4 +38,5 @@
     --tw-brightness: brightness(.4);
     filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
+
 

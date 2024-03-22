@@ -60,11 +60,11 @@ import Wrapper from "./Wrapper"
 const MunazzaFacilities = () => {
     return (
         <Wrapper>
-            <div className="hidden mdd:flex">
+            <div className="hidden calen926:flex">
                 {/* <div className="grid grid-cols-2 mt-16 gap-x-20 "> */}
                 <div className="flex justify-center items-center my-16 2xl:gap-40 gap-10">
                     <div className="col-span-1 text-xl text-blue-500 ">
-                        <h2 className="font-bold text-3xl mdd:text-[40px] text-[#141414]/90 2xl:text-[50px] ">Why Stay With Us</h2>
+                        <h2 className="font-bold text-2xl calen09:text-3xl mdd:text-[40px] text-[#141414]/90 2xl:text-[50px] ">Why Stay With Us</h2>
                         <Image src={Bg} alt="Why Stays With us" className="mt-10 w-[900px] " />
 
 
@@ -79,7 +79,7 @@ const MunazzaFacilities = () => {
                 </div>
 
             </div>
-            <div className=" mdd:hidden flex justify-center px-2 ">
+            <div className=" calen926:hidden flex justify-center px-2 ">
                 {/* <div className="grid grid-cols-2 mt-16 gap-x-20 "> */}
                 <div className="my-8 ">
                     <h2 className="font-bold text-[25px] smm:text-[40px] text-[#454545] text-center mdd:text-[50px] ">Why Stay With Us</h2>
@@ -90,7 +90,7 @@ const MunazzaFacilities = () => {
                                 <Image src={icon} alt="" className="w-[30px] h-[30px] op:h-[40px] op:w-[43px]" />
 
                                 <button className="flex items-center justify-center w-full h-[50px] op:w-[160px]">
-                                    <Image src={bills} alt="Bills"/>
+                                    <Image src={bills} alt="Bills" className=""/>
                                    
                                 </button>
 

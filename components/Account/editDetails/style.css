@@ -1,0 +1,4 @@
+/* styles.css */
+.react-datepicker__input-container input::placeholder {
+    color: #454545; /* Set the desired placeholder text color */
+    }

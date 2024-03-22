@@ -11,7 +11,7 @@ export const SubHeadingTypography = styled(Typography)(({ theme }) => ({
 
 export const ColumnTitles = styled(Typography)(({ theme }) => ({
     fontWeight: 700,
-    [theme.breakpoints.down("sm")]: {fontSize: '15px'},
+    [theme.breakpoints.down("sm")]: {fontSize: '10px'},
     [theme.breakpoints.up("sm")]: {},
     [theme.breakpoints.up("md")]: {},
     [theme.breakpoints.up("lg")]: {},
@@ -19,8 +19,9 @@ export const ColumnTitles = styled(Typography)(({ theme }) => ({
 
 export const RowTitles = styled(Typography)(({ theme }) => ({
     fontWeight: 700,
-    [theme.breakpoints.down("sm")]: {fontSize: '15px'},
+    [theme.breakpoints.down("sm")]: {fontSize: '10px'},
     [theme.breakpoints.up("sm")]: {},
     [theme.breakpoints.up("md")]: {},
     [theme.breakpoints.up("lg")]: {},
 }))
+

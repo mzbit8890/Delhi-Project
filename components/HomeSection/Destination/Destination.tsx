@@ -157,7 +157,7 @@ const Destination = () => {
                                 return (
                                     <>
                                         <div className=' h-[380px] rounded-[15px] w-full mt-8 relative hover:scale-110 duration-300'>
-                                            <Image src={item.img} alt={item.altText} className='object-cover rounded-[20px] h-[390px]' />
+                                            <Image src={item.img} alt={item.altText} className='object-cover rounded-[20px] h-[390px]'/>
                                             <div className="absolute inset-0  rounded-[15px] px-8 pt-32">
                                                 <p className="text-white text-[30px] font-bold">{item.text}</p>
                                                 <div className='flex justify-end h-[340px] items-center'>
@@ -228,7 +228,7 @@ const Destination = () => {
 
 
                         <>
-                            <Image src={item.img} alt={item.altText} className=' flex mr-4 th:mr-8 object-cover rounded-[20px] h-[360px]' />
+                            <Image src={item.img} alt={item.altText} className=' flex mr-4 th:mr-8 object-cover rounded-[20px] h-[360px] ' />
 
                             {/* <div className="absolute bottom-0 "><p className=" text-white text-[30px] font-bold">{item.text}</p>
                                 <button className=" text-[15px] font-bold text-center pb-2 rounded-[24px] border-4 text-white hover:bg-black/60">

@@ -353,7 +353,7 @@ const page = () => {
 
 
         <div className="relative rty:mt-[90px] mt-[70px]">
-          <Image src={BG} alt="" />
+          <Image src={BG} alt="" className='h-[230px] crt:h-full' />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
             <h2 className="text-white md:text-[45px] but:text-[30px] last:text-[20px] text-[15px] font-bold ">Are you ready?</h2>
             <button className='fou:w-[166px] fou:h-[48px] w-[106px] h-[30px] border rounded-full mt-3 px- font-semibold text-[#141414] fou:text-lg text-[12.23px]  bg-[#FFFFFF]/55'>

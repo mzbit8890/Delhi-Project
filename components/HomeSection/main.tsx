@@ -15,6 +15,7 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import { Box } from "@mui/material"
 import MunazzaFetured from "../MunazzaComponent/MunazzaFetured"
 import Destination from "./Destination/Destination"
+import MobileFooter from "../mobileFooter/MobileFooter"
 
 const HomeComponent = () => {
   const isMobile = useMediaQuery('(max-width:600px)');
@@ -38,10 +39,13 @@ const HomeComponent = () => {
         // <Destinations />
       )} */}
       <Destination />
-      <Numbers />
-      <FacilitiesTable />
+    <Numbers /> 
+    
+      <FacilitiesTable /> 
     </Box>
-    <Footer />
+    <div className="calen906:block hidden"><Footer /></div>
+    <div className="calen906:hidden block"><MobileFooter/></div>
+   
   </>
 }
 
